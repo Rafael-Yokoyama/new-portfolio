@@ -1,9 +1,10 @@
 
-import { createGlobalStyle, css } from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 import { normalize } from 'styled-normalize';
 import { devices } from './devices';
+import  theme  from './theme';
 
-export default createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 ${normalize}
 
 *{
@@ -13,9 +14,8 @@ ${normalize}
   transition:background ease 0.2s; 
 }
 
-@-ms-viewport {
-     width: device-width;
-   }
+
+
 
 h1{
   margin: 0;
@@ -26,9 +26,10 @@ textarea,button,input{
   border:none;
 }
 
-a  {
-  text-decoration: none;
-}
+a {
+      font-weight: ${theme.fonts.weight.medium};
+      text-decoration: none;
+    }
 
 button {
    box-shadow: none;
@@ -42,7 +43,7 @@ button {
  button , a {
    transition: all ease 0.4s;
    &:hover{
-     ${props => props.theme.configs.hover}
+     ${theme.configs.hover}
    }
  }
 
@@ -51,7 +52,14 @@ ul {
 }
 
 ::-webkit-scrollbar{
-  width: 0.4rem;
-  height: 0.4rem;
+  width: 0rem;
+  height: 0rem;
 }
+*::-webkit-scrollbar {
+      width: 0.0rem;
+      @media ${devices.tablet}{
+        width: 0.2rem;
+      }
+    }
 `;
+export default GlobalStyle;

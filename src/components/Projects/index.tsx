@@ -69,7 +69,7 @@ const MyProjects = () => {
 
         <div className="container">
           {data.map((d) => (
-            <a href={d.link} target="_blank"  >
+            <a href={d.link} target="_blank" rel="noreferrer"  >
               <div className="item">
                 <img src={d.img} alt="imagem" />
                 <h3>{d.title}  </h3>

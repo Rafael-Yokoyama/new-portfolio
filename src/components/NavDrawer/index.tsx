@@ -25,12 +25,12 @@ const NavDrawer: React.FC = () => {
     {
       title: 'Resume',
       icon: <FaGraduationCap />,
-      link: "#"
+      link: "#experience"
     },
     {
       title: 'Portifolio',
       icon: <FaCode />,
-      link: "#experience"
+      link: "#projects"
     },
     {
       title: 'Contact',

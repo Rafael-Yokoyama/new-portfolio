@@ -10,7 +10,7 @@ import logo from "../../assets/logo.svg";
 
 const Experience = () => {
     return (
-        <Container id="#experience">
+        <Container id="experience">
             <div data-title="Minhas" className="title">
                 <Title
                     font={"30px"}

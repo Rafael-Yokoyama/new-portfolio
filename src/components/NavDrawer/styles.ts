@@ -8,7 +8,6 @@ export const Container = styled.div`
   position: fixed;
   right: 0;
   top: calc(50% - 11rem);
-  /* this zindex is for framer motion */
   z-index: 10;
   @media(max-width: 425px) {
     left: 50%;
@@ -41,8 +40,8 @@ export const Container = styled.div`
 
 export const List = styled.div<ListProps>`
   position: relative;
-  width: ${props => props.menuActive === true ? '13rem' : '4rem'};
-  min-height: 22rem;
+  width: ${props => props.menuActive === true ? '12rem' : '3.5rem'};
+  min-height: 19rem;
   background-color: #111111;
   border-radius: 0 10px 10px 0;
   overflow: hidden;
@@ -81,14 +80,16 @@ export const List = styled.div<ListProps>`
   > ul li a .icon {
     position: relative;
     display: block;
-    min-width: 50px;
-    height: 2.9rem;
+    min-width: 40px;
+    height: 2.2rem;
     line-height: 3.8rem;
     text-align: center;
     background: none;
     margin-left: 1rem;
     & svg {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      
     }
   }
   > ul li a .title {
@@ -107,6 +108,7 @@ export const List = styled.div<ListProps>`
     min-height: 0;
     width: 22rem;
     border-radius: 10px 10px 0 0;
+    margin-left: -86px;
     ul {
       display: flex;
       padding: 0;

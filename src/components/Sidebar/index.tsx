@@ -19,13 +19,13 @@ const Sidebar = () => {
         <div className="conteudo">
           
           <div className="wrapper">
-            <a href="#" className="icon">
+            <a href="https://www.linkedin.com/in/rafael-yokoyama/" target="_blank" className="icon" rel="noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="#" className="icon">
+            <a href="https://github.com/Rafael-Yokoyama" target="_blank" className="icon" rel="noreferrer">
               <i className="fab fa-github"></i>
             </a>
-            <a href="#" className="icon">
+            <a href="https://www.instagram.com/dev_yokoyama/" target="_blank" className="icon" rel="noreferrer">
               <i className="fab fa-instagram"></i>
             </a>
           </div>

@@ -154,6 +154,7 @@ margin-top:40px
 .photo:hover {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
+    cursor: pointer;
 }
 
 
@@ -163,8 +164,8 @@ margin-top:40px
     animation: grid-photo-1 10s ease infinite alternate;
 }
 .grid-photo-2 {
-    -webkit-animation: grid-photo-2 20s ease infinite alternate;
-    animation: grid-photo-2 20s ease infinite alternate;
+    -webkit-animation: grid-photo-2 14s ease infinite alternate;
+    animation: grid-photo-2 14s ease infinite alternate;
 }
 
 .grid-nobreak-6 {

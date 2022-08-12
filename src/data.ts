@@ -1,34 +1,27 @@
-import { link } from "fs";
+
 import perfil from "./assets/perfil.svg";
-
-interface Props{
-    id:number,
-    title:string,
-    img:string,
-    link?:string
-}
-
+import rede  from "./assets/rede.png";
 export const featuredList = [
     {
       id: 1,
-      title: "loading",
-      img:`${perfil}`,
-      link:'https://stackoverflow.com/questions/44147937/property-does-not-exist-on-type-never'
+      title: "Uma rede social para desenvolvedores",
+      img:`${rede}`,
+      link:'https://devsocialnetwork.netlify.app/'
         
     },
     {
       id: 2,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
     {
       id: 3,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
     {
       id: 4,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
  
@@ -37,19 +30,19 @@ export const featuredList = [
   export const webList= [
     {
       id: 1,
-      title: "loading",
-      img:`${perfil}`,
-      link:'https://stackoverflow.com/questions/44147937/property-does-not-exist-on-type-never'
+      title: "Uma rede social para desenvolvedores",
+      img:`${rede}`,
+      link:'https://devsocialnetwork.netlify.app/'
         
     },
     {
       id: 2,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
     {
       id: 3,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
    
@@ -59,24 +52,24 @@ export const featuredList = [
   export const appList = [
     {
       id: 1,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`,
       link:'https://stackoverflow.com/questions/44147937/property-does-not-exist-on-type-never'
         
     },
     {
       id: 2,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
     {
       id: 3,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
     {
       id: 4,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
  
@@ -86,14 +79,14 @@ export const featuredList = [
   export const designList = [
     {
       id: 1,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`,
       link:'https://stackoverflow.com/questions/44147937/property-does-not-exist-on-type-never'
         
     },
     {
       id: 2,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
   
@@ -103,19 +96,19 @@ export const featuredList = [
   export const brandingList = [
     {
       id: 1,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`,
       link:'https://stackoverflow.com/questions/44147937/property-does-not-exist-on-type-never'
         
     },
     {
       id: 2,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
     {
       id: 3,
-      title: "loading",
+      title: "Em breve",
       img:`${perfil}`
     },
    

@@ -203,7 +203,8 @@ margin-top:40px
 
 @media screen and (max-width: 960px){
     .grid-photo-1 ,  .grid-photo-2{
-        max-width: 100px;
+        max-width: 80px;
+       
         display: flex;
     flex-direction:row;
     }

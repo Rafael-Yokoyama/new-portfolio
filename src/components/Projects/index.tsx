@@ -1,7 +1,5 @@
 
 import { useEffect, useState } from "react";
-import perfil from "../../assets/perfil-2.svg";
-import Paragraph from "../Paragraph";
 import Title from "../Title";
 import {
   featuredList,
@@ -57,8 +55,9 @@ const MyProjects = () => {
       <div id="portfolio" className="portfolio">
 
         <ul>
-          {list.map((item) => (
+          {list.map((item , index) => (
             <PortfolioList
+              key ={index}
               id={item.id}
               title={item.title}
               active={selected === item.id}
@@ -68,8 +67,8 @@ const MyProjects = () => {
         </ul>
 
         <div className="container">
-          {data.map((d) => (
-            <a href={d.link} target="_blank" rel="noreferrer"  >
+          {data.map((d, index) => (
+            <a href={d.link}  key={index} target="_blank" rel="noreferrer"  >
               <div className="item">
                 <img src={d.img} alt="imagem" />
                 <h3>{d.title}  </h3>

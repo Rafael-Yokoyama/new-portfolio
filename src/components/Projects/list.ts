@@ -1,7 +1,7 @@
 export const list = [
     {
       id: "featured",
-      title: "Featured"
+      title: "Principais"
     },
     {
       id: "web",
@@ -17,6 +17,6 @@ export const list = [
     },
     {
       id: "branding",
-      title: "Others"
+      title: "Outros"
     }
   ];

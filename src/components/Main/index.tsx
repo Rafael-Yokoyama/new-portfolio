@@ -30,9 +30,9 @@ const Main = () => {
                   width="559"
                   height="286"
                   fill="#1a7f81"
-                  fill-opacity="0.05"
+                  fillOpacity="0.05"
                   stroke="#1a7f81"
-                  stroke-width="2"
+                 strokeWidth="2"
                 />
                 <rect
                   id="figny9-adjust-1"
@@ -42,7 +42,7 @@ const Main = () => {
                   height="10"
                   fill="white"
                   stroke="#1a7f81"
-                  stroke-width="2"
+                 strokeWidth="2"
                 />
                 <rect
                   id="figny9-adjust-3"
@@ -52,7 +52,7 @@ const Main = () => {
                   height="10"
                   fill="white"
                   stroke="#1a7f81"
-                  stroke-width="2"
+                 strokeWidth="2"
                 />
                 <rect
                   id="figny9-adjust-4"
@@ -62,7 +62,7 @@ const Main = () => {
                   height="10"
                   fill="white"
                   stroke="#1a7f81"
-                  stroke-width="2"
+                 strokeWidth="2"
                 />
                 <rect
                   id="figny9-adjust-2"
@@ -72,7 +72,7 @@ const Main = () => {
                   height="10"
                   fill="white"
                   stroke="#1a7f81"
-                  stroke-width="2"
+                 strokeWidth="2"
                 />
               </g>
               <g id="cursor">
@@ -81,7 +81,7 @@ const Main = () => {
                   d="M400.5 343L395 317L418.5 331L407 333.5L400.5 343Z"
                   fill="#1a7f81"
                   stroke="white"
-                  stroke-width="2"
+                 strokeWidth="2"
                 />
 
                 <rect
